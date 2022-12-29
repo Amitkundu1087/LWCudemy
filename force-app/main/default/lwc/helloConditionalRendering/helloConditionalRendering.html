@@ -1,0 +1,17 @@
+<template>
+    <lightning-card title="Condition Rendinging">
+        <lightning-button 
+            variant="brand" 
+            label="Click to show" 
+            title="Conition" 
+            onclick={handleClick} 
+            class="slds-var-m-around_medium">
+        </lightning-button>
+
+        <template if:true={isVisivle} >
+         <div  class="slds-var-m-around_medium">Show me the text</div>
+        </template>
+
+    </lightning-card>
+    
+</template>

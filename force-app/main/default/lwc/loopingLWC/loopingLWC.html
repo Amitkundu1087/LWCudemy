@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="for Each Loop">
+        <div  class="slds-var-m-around_medium">
+
+            <template for:each={carList} for:item="car">
+                <div  key ={Car}> {car}</div>
+            </template>
+        </div>
+     
+    </lightning-card>
+</template>
